@@ -1,2 +1,2 @@
-# desafio-7daysOfCode-HTML-CSS
+# Desafio 7 Dias de Código HTML e CSS do Portal Alura.
  
