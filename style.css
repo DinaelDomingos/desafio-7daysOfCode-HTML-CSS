@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap');
+
+:root {
+    --branco-principal: #FFFFFF;
+    --cinza-claro: #667085;
+    --cinza-escuro: #3A404E;
+    --vermelho: #8E2424;
+    --fundo-bege: rgba(142, 36, 36, 0.05);
+    --fundo-cinza: #F9FAFB;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    grid-template-rows: 80px 311px 288px 1798px 404px 486px;
+    max-width: 1440px;
+    margin: auto;
+    font-family: 'Inter', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a{
+    font-weight: 500;
+    text-decoration: none;
+    color: var(--cinza-claro);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;    
+}
+
+.logo a {
+    font-size: 1.125rem;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.menu a {
+    font-size: 1rem;
+}
+
+.botao {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem    ;   
+}
+
+.botao a {
+    font-size: 1rem;
+    padding: 0.625rem 1.125rem;
+}
+
+button {
+    background: var(--vermelho);
+    border-radius: 0.5rem;
+    border: 1px solid var(--vermelho);
+    color: var(--branco-principal);
+    padding: 0.75rem 1.125rem;
+}
+
+.cabecalho {
+    text-align: center;    
+}
+
+.cabecalho span {
+    display: block;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--vermelho);
+    padding-top: 6rem;
+}
+
+.cabecalho h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: var(--cinza-escuro);
+    padding: 1.5rem 0;
+}
+
+.cabecalho p {
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: var(--cinza-claro);
+    width: 791px;
+    margin: 0 auto;
+    padding-bottom: 6rem;
+    line-height: 1.875rem;
+}
+.metricas {
+    display: flex;
+    max-width: 88.9%;
+    margin: auto;
+    padding: 0 2rem;
+    gap: 2rem;
+}
+
+.metricas h2 {
+    color: var(--vermelho);
+    font-size: 3.75rem;
+    font-weight: 600;
+    line-height: 4.5rem;
+}
+
+.metricas h3 {
+    color: var(--cinza-escuro);
+    font-size: 1.125rem;
+    font-weight: 500;
+    line-height: 1.75rem;
+    margin: 0.75rem 0 0.5rem;
+}
+
+.metricas p {
+    color: var(--cinza-claro);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+.vagas__anuncio {
+    margin-top: 6rem;
+    text-align: center;
+}
+
+.vagas__anuncio span {
+    background-color: var(--fundo-bege);
+    border-radius: 1rem;
+    color: var(--vermelho);
+    padding: 0.25rem 0.75rem;
+}
+
+.vagas__anuncio h2 {
+    color: var(--cinza-escuro);
+    margin: 1rem 0 1.25rem;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 2.75rem;
+}
+
+.vagas__anuncio img {
+    margin-top: 4rem;
+}
+
+.vagas__anuncio p {
+    color: var(--cinza-claro);
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.875rem;
+}
+
+.vagas__cargo {
+    width: 768px;
+    margin: 0 auto;
+    font-weight: 500;
+}
+
+.vagas__cargo h2 {
+    color: var(--cinza-escuro);
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+    padding: 6rem 0 2rem;
+}
+
+.vagas__cargo h3 {
+    color: var(--cinza-escuro);
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    margin-bottom: 2rem;
+}
+
+.vagas__cargo span {
+    color: var(--cinza-claro);
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.vagas__cargo__dados {
+    padding: 1.5rem 1.5rem 1.75rem;
+}
+
+.vagas__cargo__dados-detalhes {
+    display: flex;
+    gap: 1.5rem;
+}
+.depoimentos {
+    width: 1216px;
+    margin: 0 auto;
+    background-color: var(--fundo-bege);
+    text-align: center;
+    padding: 4rem;
+}
+
+#depoimentos__anuncio {
+    color: var(--vermelho);
+    font-size: 0.875rem;
+    font-weight: 600;
+    line-height: 1.25rem;
+}
+
+.depoimentos p {
+    color: var(--cinza-escuro);
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 2.75rem;
+    margin: 1rem 0 2rem;
+}
+
+#depoimentos__nome {
+    display: block;
+    color: var(--cinza-escuro);
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+}
+
+#depoimentos__cargo {
+    display: block;
+    color: var(--cinza-claro);
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+}
+.formularios {
+    background-color: var(--fundo-cinza);
+    padding: 6rem 0;
+    text-align: center;
+    margin-top: 6rem;
+}
+
+.formularios h2 {
+    color: var(--cinza-escuro);
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 2.75rem;
+}
+
+.formularios p {
+    color: var(--cinza-claro);
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.875rem;
+    margin: 1.25rem 0 2.5rem;
+}
+
+input {
+    padding: 0.75rem 0.875rem 0.75rem 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid #D0D5DD;
+    margin-bottom: 2rem;
+}
+
+footer {
+    margin-bottom: 6rem;
+    color: var(--cinza-claro);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+}
